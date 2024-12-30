@@ -1,19 +1,12 @@
-Title: EncodeDNA
-Author: Kyle Frohlich
-
-EncodeDNA is an auxiliary program meant to supplement and test the functionality of
-DNencrypt
-
-Steps
-1.) In terminal run the "make" command to compile and generate the executable,
-2.) Your code that you want to translate should be entered into "input.txt".
-3.) Run "./encode".
-4.) Your code in "input.txt" will be translated into DNA in "output.txt".
-
-
-
 Title: DNencrypt
 Author: Kyle Frohlich
+
+Setup
+
+This program runs under the cryptographical key A = 00, T = 01, C = 10, and G = 11.
+There is an additional program in Frohlich-Kyle/EncodeDNA that is a simple tool to
+convert any ascii characters in a .txt file into dna nucleotides as shown above.
+
 
 Steps
 1.) In terminal run the "make" command to compile and generate the executable.
